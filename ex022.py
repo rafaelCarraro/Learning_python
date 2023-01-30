@@ -1,0 +1,8 @@
+n = str(input('Nome completo: ')).strip()
+print(n.upper())
+print(n.lower())
+d = n.split()
+print('o nome completo possui {} letras'.format(len(''.join(d))))
+#print('o nome completo possui {} letras'.format(len(n) - n.count(' ')))
+print('o seu primeiro nome possui {} letras'.format(len(d[0])))
+#print('o seu priemiro nome possui {} letras'.format(n.find(' ')))

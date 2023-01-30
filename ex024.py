@@ -1,0 +1,5 @@
+c = str(input('diga a cidade onde mora: ')).strip()
+cm = c.upper()
+cms = cm.split()
+print('a cidade onde voce nasceu começa com Santo? {}'.format('SANTO' in cms[0]))
+# print(c[:5].upper()=='SANTO')

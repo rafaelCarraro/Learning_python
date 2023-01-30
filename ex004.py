@@ -1,0 +1,5 @@
+v = input('Digite algo: ')
+print('este valor é um número? {}'.format(v.isnumeric()))
+print('este valor é alfabético? {}'.format(v.isalpha()))
+print('este valor é um espaço? {}'.format(v.isspace()))
+print('este valor é um decimal? {}'.format(v.isdecimal()))
